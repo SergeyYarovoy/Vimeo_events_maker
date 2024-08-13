@@ -24,4 +24,9 @@
    pip install -r requirements.txt
    ```
 
+## Використання
+
+   ```bash
+   python3 create_live_events.py --user_token <insert_your_user_token> --user_id <insert_your_user_id> --count <insert_count_of_ivents>
+   ```
 
