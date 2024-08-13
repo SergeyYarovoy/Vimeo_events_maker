@@ -24,7 +24,7 @@ def create_live_event(user_token, user_id, event_number):
 
     response = requests.post(api_url, headers=headers, json=data)
 
-    if response.status_code == 201:
+    if response.status_code == 200:
         print("Live event created successfully.")
     else:
         print(f"Failed to create live event. HTTP Status: {response.status_code}")
