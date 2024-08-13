@@ -4,18 +4,21 @@
    ```bash
    python -m venv venv
 
-Активуйте віртуальне середовище:
+2. Активуйте віртуальне середовище:
 
-На Windows:
+   На Windows:
 
-venv\Scripts\activate
+   ```bash
+   venv\Scripts\activate
 
-На macOS/Linux:
+   На macOS/Linux:
 
-source venv/bin/activate
+   ```bash
+   source venv/bin/activate
 
-Встановіть залежності:
+3. Встановіть залежності:
 
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 
