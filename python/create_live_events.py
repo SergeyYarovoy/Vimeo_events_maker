@@ -1,3 +1,7 @@
+# Usage: 
+# python create_live_events.py --user_token <your_user_token> --user_id <your_user_id> --count <number_of_events>
+
+
 import requests
 import argparse
 
