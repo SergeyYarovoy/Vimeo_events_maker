@@ -2,7 +2,7 @@
 
 1. Створіть віртуальне середовище:
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    ```
 
 2. Активуйте віртуальне середовище:
@@ -18,7 +18,12 @@
    source venv/bin/activate
    ```
 
-3. Встановіть залежності:
+3. Перейти в фолдер python
+   ```bash
+   cd python
+   ```
+   
+4. Встановіть залежності:
 
    ```bash
    pip install -r requirements.txt
